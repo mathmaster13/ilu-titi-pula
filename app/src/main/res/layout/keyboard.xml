@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/keyboard_color">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_row_height">
+        <Button
+            style="@style/Key"
+            android:id="@+id/a" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/ala" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/i" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/iku" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/ilu" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/ka" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/kati" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/ki" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/kiku" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/ku" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_row_height">
+        <Button
+            style="@style/Key"
+            android:id="@+id/la" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/lapi" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/li" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/lika" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/lili" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/lu" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/lupa" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/mi" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/muku" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/muti" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_row_height">
+        <Button
+            style="@style/Key"
+            android:id="@+id/paka" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/pali" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/puka" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/pula" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/taka" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tama" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tiki" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tiku" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tila" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tilu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_row_height">
+        <Button
+            style="@style/Key"
+            android:id="@+id/timi" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tipi" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/titi" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tu" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tuki" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tula" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/tulu" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/uli" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/upi" />
+        <ImageButton
+            style="@style/Key"
+            android:id="@+id/backspace"
+            android:src="@drawable/backspace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_row_height"
+        tools:ignore="HardcodedText" >
+
+        <Button
+            style="@style/Key"
+            android:id="@+id/question_mark"
+            android:text="\?" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/excl_mark"
+            android:text="!" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/colon"
+            android:text=":" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/space"
+            android:layout_weight="4"
+            android:contentDescription="@string/space"
+            android:text=" "
+            tools:ignore="ImageContrastCheck" />
+        <Button
+            style="@style/Key"
+            android:id="@+id/comma"
+            android:text="," />
+        <Button
+            style="@style/Key"
+            android:id="@+id/period"
+            android:text="." />
+        <ImageButton
+            style="@style/Key"
+            android:id="@+id/ret"
+            android:contentDescription="@string/ret"
+            android:src="@drawable/ret" />
+    </LinearLayout>
+</LinearLayout>
